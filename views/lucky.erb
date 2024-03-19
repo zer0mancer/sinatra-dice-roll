@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lucky Number</title>
+  </head>
+
+  <body>
+<h2> LUCKY NUMBERS!!!</h2>
+
+<% if @lucky % 3 != 0 %>
+  <p style="color: red">Your Lucky Number today is <%= @lucky %></p>
+  <% elsif @lucky % 2 == 0 %>
+    <p style="color:green">Your Lucky Number today is <%= @lucky %></p>
+    <% else %>
+<p>    Your Lucky Number today is <%= @lucky %> <p>
+<% end %>
+
+
+  </body>
+</html>

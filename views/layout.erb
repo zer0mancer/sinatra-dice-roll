@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Dice Roll</title>
+
+    <style>
+      .navbar{
+        display: flex;
+        justify-content: space-evenly;
+      
+      }
+      </style>
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div><a href="/die/222/7">RNG Rolls</a></div>
+      <div><a href="/lucky_number/2/6">Roll two 6-sided dice</a></div>
+      <div><a href="/lucky_number/2/10">Roll two 10-sided dice</a></div>
+      <div><a href="/dices/5/4">Roll 5 four-sided dice</a></div>
+      <div><a href="/lucky_number">Get your Daily Lucky Number</a></div>
+
+    </div>
+  </body>
+  <%= yield %>
+</html>
